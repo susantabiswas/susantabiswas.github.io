@@ -2598,3 +2598,9 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+#Projects {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.7rem;
+	background-color: #E8E8E8
+}
