@@ -1800,7 +1800,7 @@ header .logo a {
 	position: relative;
 	overflow: hidden;
 	
-	border-color:black;
+	border-color:gray;
 	border-style: solid;
 	border-width:thin;
 
