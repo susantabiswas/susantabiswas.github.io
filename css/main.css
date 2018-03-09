@@ -1799,6 +1799,11 @@ header .logo a {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	
+	border-color:black;
+	border-style: solid;
+	border-width:thin;
+
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
