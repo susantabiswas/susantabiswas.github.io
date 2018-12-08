@@ -9,6 +9,7 @@ import { CertificatesComponent } from './certificates/certificates.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
         CertificatesComponent,
         ProjectsComponent,
         ExperienceComponent,
-        NotFoundComponent
+        NotFoundComponent,
+        SkillsComponent
     ],
     imports: [
         RouterModule,
@@ -30,12 +32,24 @@ import { NotFoundComponent } from './not-found/not-found.component';
                 pathMatch: 'full'
             },
             {
-                path: 'certificates',
-                component: CertificatesComponent
-            },
-            {
                 path: 'homepage',
                 component: AboutMeComponent
+            },
+            {
+                path: 'experience',
+                component: ExperienceComponent
+            },
+            {
+                path: 'skills',
+                component: SkillsComponent
+            },
+            {
+                path: 'projects',
+                component: ProjectsComponent
+            },
+            {
+                path: 'certificates',
+                component: CertificatesComponent
             },
             {
                 path: '**',
