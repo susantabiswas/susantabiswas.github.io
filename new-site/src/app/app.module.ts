@@ -4,12 +4,13 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutMeComponent } from './homepage/about-me/about-me.component';
 import { CertificatesComponent } from './certificates/certificates.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './homepage/projects/projects.component';
+import { ExperienceComponent } from './homepage/experience/experience.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { SkillsComponent } from './skills/skills.component';
+import { SkillsComponent } from './homepage/skills/skills.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { SkillsComponent } from './skills/skills.component';
         ProjectsComponent,
         ExperienceComponent,
         NotFoundComponent,
-        SkillsComponent
+        SkillsComponent,
+        HomepageComponent
     ],
     imports: [
         RouterModule,
@@ -33,7 +35,7 @@ import { SkillsComponent } from './skills/skills.component';
             },
             {
                 path: 'homepage',
-                component: AboutMeComponent
+                component: HomepageComponent
             },
             {
                 path: 'experience',
