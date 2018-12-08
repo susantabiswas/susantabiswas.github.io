@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Meta tags -->
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Portfolio website, Personel website">  
+        <meta name="author" content="Susanta">
+        
+        <!-- Tab title -->
         <title>Susanta</title>
+
+        <!-- For mobile screens -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
-        <a routerLink="/homepage">About me</a>
-        <a routerLink="/experience">Experience</a>
-        <a routerLink="/skills">Skills</a>
-        <a routerLink="/projects">Projects</a>
-        <a routerLink="/certificates">Certification</a>
+        
+        <!-- Navigation Bar starts here -->
+        <nav class=" main-nav-wrap navbar navbar-dark bg-dark justify-content-center flex-column flex-sm-row">
+            <a class="navbar-brand" routerLink="homepage"> Susanta </a>
+            <a class="nav-item nav-link" routerLink="/homepage"> About me </a>
+            <a class="nav-item nav-link" routerLink="/experience"> Experience </a>
+            <a class="nav-item nav-link" routerLink="/skills"> Skills </a>
+            <a class="nav-item nav-link" routerLink="/projects"> Projects </a>
+            <a class="nav-item nav-link" routerLink="/certificates"> Certification </a>
+        </nav>
+    
+       
+        
         <router-outlet></router-outlet>
 </body>
 
