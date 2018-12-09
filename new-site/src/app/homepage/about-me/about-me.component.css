@@ -19,6 +19,22 @@ img{
     
 }
 
+#heading-name p{
+    font-size: 3rem;
+}
+
 fa-icon{
     color: black;
+}
+
+p{
+    margin-left:20px;
+}
+
+.btn{
+    margin-left: 20px;
+}
+#social-icons{
+    margin-left: 10px;
+    padding-left: 5px;
 }

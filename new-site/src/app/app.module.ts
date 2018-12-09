@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faQuora, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -73,6 +74,6 @@ import { HomepageComponent } from './homepage/homepage.component';
 })
 export class AppModule {
     constructor(){
-        library.add(faGithub, faQuora, faLinkedin);
+        library.add(faGithub, faQuora, faLinkedin, faEnvelope);
     }
  }
