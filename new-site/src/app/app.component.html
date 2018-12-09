@@ -29,7 +29,7 @@
 
     </nav> -->
     <!-- Navigation Bar ends here -->
-    
+
     <nav class="navbar navbar-dark bg-dark justify-content-center navbar-expand-lg">
         <a class="navbar-brand" routerLink="homepage"> SUSANTA </a>
 
@@ -37,14 +37,15 @@
             aria-controls="navbarTogglerDiv" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDiv">
-            <a class="nav-item nav-link" routerLink="/about-me"> About me </a>
-            <a class="nav-item nav-link" routerLink="/experience"> Experience </a>
-            <a class="nav-item nav-link" routerLink="/skills"> Skills </a>
-            <a class="nav-item nav-link" routerLink="/projects"> Projects </a>
-            <a class="nav-item nav-link" routerLink="/certificates"> Certifications </a>
-       </div> 
+        <div id="container">
+            <div class="collapse navbar-collapse" id="navbarTogglerDiv">
+                <a class="nav-item nav-link" routerLink="/about-me"> About me </a>
+                <a class="nav-item nav-link" routerLink="/experience"> Experience </a>
+                <a class="nav-item nav-link" routerLink="/skills"> Skills </a>
+                <a class="nav-item nav-link" routerLink="/projects"> Projects </a>
+                <a class="nav-item nav-link" routerLink="/certificates"> Certifications </a>
+            </div>
+        </div>
     </nav>
 
     <router-outlet></router-outlet>
