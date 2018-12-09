@@ -40,6 +40,10 @@ import { HomepageComponent } from './homepage/homepage.component';
                 component: HomepageComponent
             },
             {
+                path: 'about-me',
+                component: AboutMeComponent
+            },
+            {
                 path: 'experience',
                 component: ExperienceComponent
             },
