@@ -1,0 +1,24 @@
+img{
+    height: "240px";
+    width: "240px";
+}
+
+.profile-circle{
+    border-radius: 0%;
+    height: 250px;
+    width: 240px;
+}
+
+#social-icons{
+    list-style-type: none;
+}
+
+#social-icons li{
+    display: inline;
+    margin: 10px;
+    
+}
+
+fa-icon{
+    color: black;
+}

@@ -1,7 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { AlertModule } from 'ngx-bootstrap';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faGithub, faQuora, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,10 +28,10 @@ import { HomepageComponent } from './homepage/homepage.component';
         HomepageComponent
     ],
     imports: [
+        FontAwesomeModule,
         RouterModule,
         BrowserModule,
         AppRoutingModule,
-        AlertModule.forRoot(),
         RouterModule.forRoot([
             {
                 path: '',
@@ -68,4 +71,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     providers: [],
     bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+    constructor(){
+        library.add(faGithub, faQuora, faLinkedin);
+    }
+ }
