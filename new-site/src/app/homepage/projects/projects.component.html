@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row" *ngFor="let item of createArray(5); let i = index">
 			<div class="card-deck">
-				<!-- Card 1 starts here -->
+				<!-- Card starts here -->
 				<div class="card" *ngFor="let item of createArray(4); let j = index">
 					<img class="card-img-top" src="{{ projects[ i*4 + j].img_url}}" alt="Card image cap">
 					<div class="card-body">
@@ -20,7 +20,7 @@
 						<a href= "{{ projects[ i*4 + j].url}}" class="btn btn-primary" target="_blank" rel="noreferrer noopener">Go to project</a>
 					</div>
 				</div>
-				<!-- Card 1 ends here -->
+				<!-- Card ends here -->
 			</div>
 		</div>
 	</div>
