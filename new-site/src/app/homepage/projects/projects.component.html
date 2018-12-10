@@ -14,10 +14,9 @@
 				<div class="card" *ngFor="let item of createArray(4); let j = index">
 					<img class="card-img-top" src="../../../assets/projects/trigger-word/6.jpg" alt="Card image cap">
 					<div class="card-body">
-						<h5 class="card-title">{{projects[i*5 + j].title}}</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-							content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
+						<h5 class="card-title">{{projects[i*4 + j].title}}</h5>
+						<p class="card-text">{{projects[i*4 + j].intro}}</p>
+						<a href= "{{ projects[ i*4 + j].url}}" class="btn btn-primary">Details</a>
 					</div>
 				</div>
 				<!-- Card 1 ends here -->
