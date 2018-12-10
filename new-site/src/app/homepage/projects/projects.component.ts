@@ -11,7 +11,7 @@ export class ProjectsComponent implements OnInit {
 			"id": 1,
 			"title": "Realtime Facial Recognition",
 			"intro": "Realtime Facial recognition system using Siamese neural network",
-			"description": "Face Recognition system using Siamese Neural network. The model is based on the FaceNet model. OpenCV implementaion has been done for realtime face detection and recognition using the network. The model uses face encodings for identifying users. Demo is available <a href='https://www.youtube.com/embed/5wv5JG_THxk'>here</a>",
+			"description": "Face Recognition system using Siamese Neural network. The model is based on the FaceNet model. OpenCV implementaion has been done for realtime face detection and recognition using the network. The model uses face encodings for identifying users.",
 			"url": "https://susantabiswas.github.io/FaceRecog/",
 			"img_url": "../../../assets/projects/face-recog/1.gif" 
 		},
@@ -85,7 +85,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Solution codes for 400+ algorithms and data structure problems.",
 			"description": "Solution codes for 400+ algorithms and data structure problems. Most common and famous placement questions from Data Structures and Algorithms.",
 			"url": "https://susantabiswas.github.io/InterviewPrep/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/data-structures/1.svg"
 		},
 		{
 			"id": 11,
@@ -125,7 +125,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Finding word analogies using GLoVe word embeddings",
 			"description": "Finding word analogies using GLoVe word embeddings. In the word analogy task, we have 'a is to b as c is to __'. For example is 'boy is to girl as king is to queen' .",
 			"url": "https://susantabiswas.github.io/Word-Analogy/",
-			"img_url": "../../../assets/projects/word-analogy/1.gif"
+			"img_url": "../../../assets/projects/word-analogy/1.JPG"
 		},
 		{
 			"id": 16,
@@ -133,7 +133,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "A RNN based voice application which can do tasks when it recognizes the user speaking the Trigger word. Here the trigger word is 'activate'.",
 			"description": "A voice based assistant application which executes the assigned command on detecting the trigger word from the user voice. A trigger word is a word to which the model gets triggered once it detects it. Like for example 'Hey Cortana' or 'Ok Google'. Here the trigger word used is 'activate'. The Model used for detecting trigger word uses a deep Recurrent Neural Network with Gated Recurrent Units (GRU).",
 			"url": "https://susantabiswas.github.io/TriggerWordAssistant/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/trigger-word/1.jpg"
 		},
 		{
 			"id": 17,
@@ -141,7 +141,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Deep RNN for expressing english phrases with emoji.",
 			"description": "Express your words with the power of Emoji. Using a deep LSTM network the model associates an english input sentence with an emoji.",
 			"url": "https://susantabiswas.github.io/DeepEmoji/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/phrase-emoji/1.JPG"
 		},
 		{
 			"id": 18,
@@ -149,7 +149,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Classic Snake Game written in C#",
 			"description": "Classic Snake Game written in C# using Windows Form.In this version,basic Game Screen Interface is there , SQLite has been used for storing the High Score .",
 			"url": "http://susantabiswas.github.io/Snake-Game/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/snake-game/1.jpg"
 		},
 		{
 			"id": 19,
@@ -165,7 +165,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "A simple multitab Text Editor written in C#",
 			"description": "This is a multi-tab Editor with basic features written in C#.It has GUI and is made using Windows Forms.",
 			"url": "http://susantabiswas.github.io/HTML-Viewer/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/multitab-editor/1.jpg"
 		}
 	]
 
