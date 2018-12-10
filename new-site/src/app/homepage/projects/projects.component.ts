@@ -13,7 +13,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Realtime Facial recognition system using Siamese neural network. The model uses face encodings for identifying users.",
 			"description": "Face Recognition system using Siamese Neural network. The model is based on the FaceNet model. OpenCV implementaion has been done for realtime face detection and recognition using the network. The model uses face encodings for identifying users.",
 			"url": "https://susantabiswas.github.io/FaceRecog/",
-			"img_url": "../../../assets/projects/face-recog/1.gif" 
+			"img_url": "../../../assets/projects/face-recog/1.jpg" 
 		},
 		{
 			"id": 2,
