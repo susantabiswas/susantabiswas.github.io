@@ -25,3 +25,9 @@
     margin-left: 5px;
     float: right;
 }
+
+#title{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
