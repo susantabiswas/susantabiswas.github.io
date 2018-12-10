@@ -11,9 +11,9 @@ export class ProjectsComponent implements OnInit {
 			"id": 1,
 			"title": "Realtime Facial Recognition",
 			"intro": "Realtime Facial recognition system using Siamese neural network",
-			"description": "Face Recognition system using Siamese Neural network. The model is based on the FaceNet model. OpenCV implementaion has been done for realtime face detection and recognition using the network. The model uses face encodings for identifying users.",
+			"description": "Face Recognition system using Siamese Neural network. The model is based on the FaceNet model. OpenCV implementaion has been done for realtime face detection and recognition using the network. The model uses face encodings for identifying users. Demo is available <a href='https://www.youtube.com/embed/5wv5JG_THxk'>here</a>",
 			"url": "https://susantabiswas.github.io/FaceRecog/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/face-recog/1.gif" 
 		},
 		{
 			"id": 2,
@@ -21,7 +21,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Facial keypoints detection using 15 landmark points on human face",
 			"description": "Keypoint detection problem is a regression problem where we predict the coordinates for the landmarks on the face which are real numbers. Detection of facial keypoints is very useful for a number of tasks like facial recognition, detection etc. The keypoints selected in this code uses 15 keypoints representing the various coordinates on the human face.",
 			"url": "https://susantabiswas.github.io/facial-keypoint-regression/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/regression-keypoint/1.jpg" 
 		},
 		{
 			"id": 3,
@@ -45,7 +45,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Caption generation or image summarization for images using LSTM network. Implementation done in keras.",
 			"description": "Image summary generation or caption generation for images using CNN-LSTM network. The model used MSCOCO dataset for training the model. The entire implementation is done in Keras.",
 			"url": "https://susantabiswas.github.io/image-summarizer/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/image-summarization/1.jpg" 
 		},
 		{
 			"id": 6,
@@ -61,7 +61,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Human Emotion Analysis using facial expressions in real-time from webcam feed.",
 			"description": "Realtime Human Emotion Analysis From facial expressions. It uses a deep Convolutional Neural Network. The model used achieved an accuracy of 63% on the test data. The realtime analyzer assigns a suitable emoji for the current emotion.",
 			"url": "https://susantabiswas.github.io/facial-emotion-analyzer/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/facial-emotion/1.JPG"  
 		},
 		{
 			"id": 8,
@@ -73,7 +73,7 @@ export class ProjectsComponent implements OnInit {
 		},
 		{
 			"id": 9,
-			"title": "Indian names generation using RNN",
+			"title": "Name generation using RNN",
 			"intro": "Indian names generation using RNN. This model was trained for generating indian names. Made using keras.",
 			"description": "Indian name generation using Gated Recurrent units. It uses a character level language model for this task.",
 			"url": "https://susantabiswas.github.io/Name-Gen-RNN/",
@@ -93,7 +93,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Web based facial Authentication system with flask server",
 			"description": "This is a web based facial log in/ Sign up website which uses Facial recognition for user authentication. It uses flask server for running the keras neural network model. The model runs on the server side and accepts requests from clients. Facial recognition is based on Facenet model.",
 			"url": "https://susantabiswas.github.io/facial-login-web/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/facial-login-web/1.jpg" 
 		},
 		{
 			"id": 12,
@@ -104,12 +104,20 @@ export class ProjectsComponent implements OnInit {
 			"img_url": ""
 		},
 		{
+			"id": 13,
+			"title": "Code Snippet Manager",
+			"intro": "Code Snippet Manager written in C# that can be used to store and manage code snippets.",
+			"description": "Code Snippet Manager written in C# that can be used to store and manage code snippets.Also has a in-built text editor to modify and write snippets.",
+			"url": "https://github.com/susantabiswas/Code-Snippet-Manager",
+			"img_url": ""
+		},
+		{
 			"id": 14,
-			"title": "French to English Translation using NMT",
+			"title": "English to French Translation using NMT",
 			"intro": "Sequence to sequence model for Language translation from English to French",
 			"description": "Sequence to sequence model for Language translation from English to French. This model uses an Encoder-Decoder with LSTM cells.",
 			"url": "https://susantabiswas.github.io/Neural-Language-Translator/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/language-translator/1.JPG" 
 		},
 		{
 			"id": 15,

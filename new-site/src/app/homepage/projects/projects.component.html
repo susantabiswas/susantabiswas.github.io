@@ -12,11 +12,11 @@
 			<div class="card-deck">
 				<!-- Card 1 starts here -->
 				<div class="card" *ngFor="let item of createArray(4); let j = index">
-					<img class="card-img-top" src="../../../assets/projects/trigger-word/6.jpg" alt="Card image cap">
+					<img class="card-img-top" src="{{ projects[ i*4 + j].img_url}}" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">{{projects[i*4 + j].title}}</h5>
 						<p class="card-text">{{projects[i*4 + j].intro}}</p>
-						<a href= "{{ projects[ i*4 + j].url}}" class="btn btn-primary">Details</a>
+						<a href= "{{ projects[ i*4 + j].url}}" class="btn btn-primary">Go to project</a>
 					</div>
 				</div>
 				<!-- Card 1 ends here -->
