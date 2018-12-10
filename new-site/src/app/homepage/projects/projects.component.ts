@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
 	styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-	randvar = []
 	projects = [
 		{
 			"id": 1,
