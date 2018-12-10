@@ -29,7 +29,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Next Word Prediction using n-gram Probabilistic Model with various Smoothing Techniques",
 			"description": "Next Word Prediction using n-gram Probabilistic Model with various Smoothing Techniques",
 			"url": "https://susantabiswas.github.io/Word-Prediction-Ngram/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/word-prediction/1.png"
 		},
 		{
 			"id": 4,
@@ -109,7 +109,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Code Snippet Manager written in C# that can be used to store and manage code snippets.",
 			"description": "Code Snippet Manager written in C# that can be used to store and manage code snippets.Also has a in-built text editor to modify and write snippets.",
 			"url": "https://github.com/susantabiswas/Code-Snippet-Manager",
-			"img_url": ""
+			"img_url": "../../../assets/projects/snippet-manager/1.png"
 		},
 		{
 			"id": 14,
@@ -157,7 +157,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "HTML Viewer that shows the Web View of the Page simultaneously as the HTML code  is being written on the side Pane Window.",
 			"description": "HTML Viewer that shows the Web View of the Page simultaneously as the HTML code is being written on the side Pane Window.The application is written in C# using Windows Forms and .NET framework.",
 			"url": "http://susantabiswas.github.io/HTML-Viewer/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/html-editor/1.png"
 		},
 		{
 			"id": 20,
