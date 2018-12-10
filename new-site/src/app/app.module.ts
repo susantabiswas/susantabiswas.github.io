@@ -60,7 +60,7 @@ import { HomepageComponent } from './homepage/homepage.component';
                 component: ProjectsComponent
             },
             {
-                path: 'certificates',
+                path: 'certifications',
                 component: CertificatesComponent
             },
             {
