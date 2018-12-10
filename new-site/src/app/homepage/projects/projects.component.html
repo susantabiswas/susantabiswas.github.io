@@ -1,10 +1,11 @@
 <div class="container" id="projects">
 	<!-- Project heading -->
 	<div class="row" id="project-heading">
-		<div class="col-md-12 offset-md-3">
-			<p>Check out some of my projects</p>
+		<div class="col-md-12 offset-md-4">
+			<p>Some of my projects</p>
 		</div>
 	</div>
+	<br>
 	<!-- Project heading ends here -->
 
 	<div class="container">
@@ -16,7 +17,7 @@
 					<div class="card-body">
 						<h5 class="card-title">{{projects[i*4 + j].title}}</h5>
 						<p class="card-text">{{projects[i*4 + j].intro}}</p>
-						<a href= "{{ projects[ i*4 + j].url}}" class="btn btn-primary">Go to project</a>
+						<a href= "{{ projects[ i*4 + j].url}}" class="btn btn-primary" target="_blank" rel="noreferrer noopener">Go to project</a>
 					</div>
 				</div>
 				<!-- Card 1 ends here -->
