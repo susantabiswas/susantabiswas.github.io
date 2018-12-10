@@ -34,10 +34,10 @@ export class ProjectsComponent implements OnInit {
 		{
 			"id": 4,
 			"title": "Stackoverflow question tagger",
-			"intro": "Predict topic tags for StackOverflow questions",
+			"intro": "Predict topic tags for Stackoverflow questions from an input questions using machine learning",
 			"description": "StackOverflow lets the users to post their queries and the other users can help them with answers. The site uses tags for managing the questions effectively. Here we will be predicting tags for a given question. Tags like C, C++, Python are widely used. This model can predict appropriate topic tags for a variety of StackOverflow questions.",
 			"url": "https://susantabiswas.github.io/stackoverflow-question-tagger/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/stackoverflow-tagger/3.jpg" 
 		},
 		{
 			"id": 5,
@@ -53,7 +53,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Part of Speech Tagger for language strings using Bidirectional LSTM network.",
 			"description": "Code for neural network that can tag POS in an English sentence. There are many POS tagsets available, here universal tagset has been used. The model converts the sentence to POS tags.",
 			"url": "https://susantabiswas.github.io/POS-tagger/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/pos-tagger/1.JPG" 
 		},
 		{
 			"id": 7,
@@ -69,15 +69,15 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Find similar questions amongst a bunch of questions using word embeddings.",
 			"description": "Find similar questions using word embeddings. Here we use Google's 300 dimensional word embeddings.",
 			"url": "https://susantabiswas.github.io/similar-question-finder/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/similar-questions/1.JPG"  
 		},
 		{
 			"id": 9,
 			"title": "Name generation using RNN",
-			"intro": "Indian names generation using RNN. This model was trained for generating indian names. Made using keras.",
+			"intro": "Indian names generation using RNN. This model was trained for generating indian names.",
 			"description": "Indian name generation using Gated Recurrent units. It uses a character level language model for this task.",
 			"url": "https://susantabiswas.github.io/Name-Gen-RNN/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/name-gen/1.JPG"  
 		},
 		{
 			"id": 10,
@@ -101,7 +101,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Machine Translation for conventional dates",
 			"description": "Date translation from conventional Human readable format to machine readable format(YYYY-MM-DD) using Neural Machine Translation. For example a date in human readable format can be : 'sunday 15 september 2013', '29-oct-1997' or '30 august 1985' etc. The task is to convert this to a more normalized format like YYYY-MM-DD.",
 			"url": "https://susantabiswas.github.io/Neural-Date-Translator/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/date-translator/1.JPG"
 		},
 		{
 			"id": 13,
@@ -125,7 +125,7 @@ export class ProjectsComponent implements OnInit {
 			"intro": "Finding word analogies using GLoVe word embeddings",
 			"description": "Finding word analogies using GLoVe word embeddings. In the word analogy task, we have 'a is to b as c is to __'. For example is 'boy is to girl as king is to queen' .",
 			"url": "https://susantabiswas.github.io/Word-Analogy/",
-			"img_url": ""
+			"img_url": "../../../assets/projects/word-analogy/1.gif"
 		},
 		{
 			"id": 16,
