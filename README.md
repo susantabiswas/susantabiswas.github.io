@@ -1,5 +1,5 @@
 # susantabiswas.github.io
-Personel website written with Angular 7.
+Personel website made with Angular 7.
 
 to do:
 - make it PWA
