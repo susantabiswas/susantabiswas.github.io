@@ -1,7 +1,3 @@
 # susantabiswas.github.io
-Personel website made with Angular 7.
+Personel website made with Angular 7. Also it is a Progressive Web App.
 
-to do:
-- make it PWA
-- make it responsive
-- rearrange project sections
