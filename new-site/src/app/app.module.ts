@@ -16,6 +16,8 @@ import { ExperienceComponent } from './homepage/experience/experience.component'
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SkillsComponent } from './homepage/skills/skills.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
     declarations: [
@@ -68,7 +70,8 @@ import { HomepageComponent } from './homepage/homepage.component';
                 component: NotFoundComponent
             }
         ],
-        {useHash:true})
+        {useHash:true}),
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
     ],
     providers: [],
     bootstrap: [AppComponent]
