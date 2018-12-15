@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-certificates',
-  templateUrl: './certificates.component.html',
-  styleUrls: ['./certificates.component.css']
+	selector: 'app-certificates',
+	templateUrl: './certificates.component.html',
+	styleUrls: ['./certificates.component.css']
 })
 export class CertificatesComponent implements OnInit {
 
-  constructor() { }
+	constructor() { }
 
-  ngOnInit() {
-  }
+	ngOnInit() {
+		window.scroll(0, 0);
+	}
 
 }
