@@ -8,9 +8,9 @@
 	<br>
 	<!-- Project heading ends here -->
 
-	<div class="container">
+	<div class="container" >
 		<div class="row" *ngFor="let item of createArray(5); let i = index">
-			<div class="card-deck">
+			<div class="card-deck" id="project-section">
 				<!-- Card starts here -->
 				<div class="card" *ngFor="let item of createArray(4); let j = index">
 					<img class="card-img-top" src="{{ projects[ i*4 + j].img_url}}" alt="Card image cap">
