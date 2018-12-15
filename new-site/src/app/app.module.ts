@@ -67,7 +67,8 @@ import { HomepageComponent } from './homepage/homepage.component';
                 path: '**',
                 component: NotFoundComponent
             }
-        ])
+        ],
+        {useHash:true})
     ],
     providers: [],
     bootstrap: [AppComponent]
